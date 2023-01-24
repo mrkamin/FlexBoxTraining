@@ -54,7 +54,17 @@
     background-color: blueviolet;
 }
 
+/* .container {
+    display:flex;
+    border: 10px solid goldenrod;
+} */
+
 .container {
     display:flex;
     border: 10px solid goldenrod;
+    min-height: 100vh;
+   /*  flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+    
 }
